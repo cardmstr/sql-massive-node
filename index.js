@@ -13,8 +13,6 @@ app.set('db', massInst);
 var db = app.get('db');
 
 
-
-
 app.listen(port ,function(){
   console.log('sql-massive-node running on port ' + port);
 })
